@@ -5,7 +5,7 @@ TOMFileManager is a simple tool to manage your iOS App's files, written in Objec
 ```obj-c
 NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 NSString *documentsDirectory = [paths objectAtIndex:0]; 
-NSString *newDirectory = [documentsDirectory stringByAppendingPathComponent:@"/newDirectory"];
+NSString *newDirectory = [documentsDirectory stringByAppendingPathComponent:@"newDirectory"];
 
 if (![[NSFileManager defaultManager] fileExistsAtPath:newDirectory])
 {
@@ -17,7 +17,7 @@ You can simply write this:
 
 ```obj-c
 TOMFileManager *manager = [[TOMFileManager alloc] init];
-[manager createSubdirectory:@"/NewDirectory" inDirectory:manager.documentsDirectory];
+[manager createSubdirectoryNamed:@"NewDirectory" in:manager.documentsDirectory];
 ```
 
 Sure, almost anyone could write something like this, but why bother when its already written for you - for free!
