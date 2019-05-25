@@ -1,5 +1,5 @@
 # TOMFileManager
-TOMFileManager is a simple tool to manage your iOS App's files, written in Objective-C. Instead of using NSFileManager and the lengthy amount of code needed for a simple operation, you can write it in just one line with TOMFileManager!
+TOMFileManager is a simple tool to manage your iOS App's files, written in Objective-C (and Swift!). Instead of using NSFileManager and the lengthy amount of code needed for a simple operation, you can write it in just one line with TOMFileManager!
 <br>To be perfectly honest, there's not much that is super special about it - except instead of writing this:
 
 ```obj-c
