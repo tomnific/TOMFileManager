@@ -203,8 +203,8 @@ This feature also extends to moving, copying, and deleting a file, like so:
 
 
 ## License
-TOMFileManager is licensed under the MIT License, which is reproduced in full in the [License](LICENSE) file. <br>
-Attribution is technically required by the MIT License - plus, I enjoy being able to see how code I wrote has helped / benefited other developers and their users!
+TOMFileManager is licensed under the TOM Public License, which is reproduced in full in the [License](LICENSE) file. <br>
+In short, attribution is encouraged and you assume full liability while using this software.
 
 
 
