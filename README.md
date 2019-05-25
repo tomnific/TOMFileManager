@@ -57,11 +57,11 @@ Plus, this is the only file manager on GitHub with [Appldoc](https://github.com/
 ```
 
 
-### With CocoaPods
+### With CocoaPods (***Coming Soon!***)
 Simply add the following to your `podfile`:
 
 ```ruby
-pod 'TOMFileManager', '~> 1.0'
+pod 'TOMFileManager', '~> 2.0'
 ```
 Then run a `pod install` inside your terminal, or from CocoaPods.app.
 
